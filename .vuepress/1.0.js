@@ -9,6 +9,7 @@ module.exports = [
         collapsable: false,
         children: prefix('accounts', [
           'your-account',
+          'billing',
           'source-control',
         ]),
     }
