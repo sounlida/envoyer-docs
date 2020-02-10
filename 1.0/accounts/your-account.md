@@ -16,6 +16,14 @@ We recommend using the [Google Authenticator](https://support.google.com/account
 
 ## Billing
 
+Envoyer supoports three plans:
+
+- Basic
+- Plus
+- Premium
+
+You may join Envoyer for free as a collaborator on other projects. If you need to manage your own projects in the future, you can upgrade your account at any time.
+
 ### Business Receipts
 
 If you need to add specific contact or tax information to your receipts, like your full business name, VAT identification number, or address of record you can add Extra Billing Information from the Subscription page in your account. We'll make sure it shows up on every receipt.

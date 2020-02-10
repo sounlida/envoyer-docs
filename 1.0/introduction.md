@@ -23,3 +23,10 @@ Laravel Envoyer is a zero downtime deployment service for PHP. Some highlights o
 ## Learning More
 
 Laracasts has a comprehensive and **free** [video course](https://laracasts.com/series/envoyer) on Envoyer. Feel free to review this course if you are new to Laravel Envoyer and want a video overview of its features.
+
+## Envoyer IP Addresses
+
+If you are restricting SSH access to your server using IP whitelisting, you should whitelist the following IP addresses:
+
+- `209.97.156.220`
+- `142.93.64.227`

@@ -9,8 +9,19 @@ module.exports = [
         collapsable: false,
         children: prefix('accounts', [
           'your-account',
-          'billing',
           'source-control',
+        ]),
+    },
+    {
+        title: "Projects",
+        collapsable: false,
+        children: prefix('projects', [
+          'projects',
+          'servers',
+          'deployment-hooks',
+          'heartbeats',
+          'notifications',
+          'collaborators',
         ]),
     }
 ]
