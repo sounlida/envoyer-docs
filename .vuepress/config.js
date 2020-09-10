@@ -1,5 +1,5 @@
 module.exports = {
-    title: "Laravel Envoyer",
+    title: "Envoyer",
     description: "Zero Downtime PHP Deployment",
     base: '/docs/',
 
