@@ -18,7 +18,10 @@ module.exports = {
     themeConfig: {
         // logo: '/assets/img/logo.svg',
         displayAllHeaders: true,
-        sidebarDepth: 1,
+        activeHeaderLinks: false,
+        searchPlaceholder: 'Press / to search',
+        lastUpdated: false, // string | boolean
+        sidebarDepth: 0,
 
         nav: [
             { text: 'Home', link: 'https://envoyer.io' }
