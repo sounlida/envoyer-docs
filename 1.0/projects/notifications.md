@@ -4,4 +4,4 @@
 
 ## Overview
 
-Be notified of deployments.
+Envoyer can notify you on any deployment updates.

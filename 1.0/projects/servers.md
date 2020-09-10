@@ -14,7 +14,9 @@ If Envoyer was unable to restart PHP FPM, you will receive an alert on your proj
 
 ## Importing Laravel Forge Servers
 
-write more.
+If you have provisioned your server with [Laravel Forge](https://forge.laravel.com), you may import it into your Envoyer project. You'll need to create an API token on your Forge account and then connect it to your Envoyer account from the [Integrations](https://envoyer.io/user/profile#/integrations) page.
+
+When adding a server to your project click the **Import Forge Server** button. Envoyer will display a modal asking you to select the server from your account and the site from the server.
 
 ## Managing Uploaded Files
 

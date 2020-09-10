@@ -30,3 +30,5 @@ If you are restricting SSH access to your server using IP whitelisting, you shou
 
 - `209.97.156.220`
 - `142.93.64.227`
+
+You may also need to whitelist the [Heartbeat IP addresses](/1.0/projects/heartbeats.html#heartbeat-ip-addresses).

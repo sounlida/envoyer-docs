@@ -16,11 +16,11 @@ We recommend using the [Google Authenticator](https://support.google.com/account
 
 ## Billing
 
-Envoyer supoports three plans:
+You can sign up to any one of Envoyer's three subscription plans:
 
-- Basic
-- Plus
-- Premium
+- Basic - 10 Projects
+- Plus - 20 Projects
+- Premium - Unlimited Projects
 
 You may join Envoyer for free as a collaborator on other projects. If you need to manage your own projects in the future, you can upgrade your account at any time.
 
