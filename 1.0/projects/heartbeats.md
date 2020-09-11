@@ -32,6 +32,6 @@ $schedule->command('foo')->thenPing('http://beats.envoyer.io/heartbeat-id');
 
 If you need to white-list the Heartbeat IP addresses to allow Envoyer to access your server, you should white-list the following addresses:
 
-- `178.62.106.61`
-- `104.131.87.148`
-- `128.199.107.228`
+- New York: `198.199.84.22`
+- London: `167.71.140.19`
+- Singapore: `167.71.208.72`

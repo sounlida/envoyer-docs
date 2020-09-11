@@ -16,6 +16,7 @@ module.exports = [
         title: "Projects",
         collapsable: false,
         children: prefix('projects', [
+          'management',
           'servers',
           'deployment-hooks',
           'heartbeats',

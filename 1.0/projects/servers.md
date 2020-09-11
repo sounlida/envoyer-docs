@@ -8,7 +8,7 @@ After creating a project, you may add as many servers as you like to the project
 
 After you have added the SSH key to the server, click the "refresh" icon next to the server's Connection Status indicator. Envoyer will attempt to connect to your server and run a few health checks on the server, such as attempting to restart PHP FPM (if it is installed on the server).
 
-:::tip Unable to restart PHP FPM
+:::tip Unable to restart PHP FPM?
 If Envoyer was unable to restart PHP FPM, you will receive an alert on your project overview. The information modal for the alert will provide the command needed to allow Envoyer to restart FPM without a password.
 :::
 
@@ -17,6 +17,8 @@ If Envoyer was unable to restart PHP FPM, you will receive an alert on your proj
 If you have provisioned your server with [Laravel Forge](https://forge.laravel.com), you may import it into your Envoyer project. You'll need to create an API token on your Forge account and then connect it to your Envoyer account from the [Integrations](https://envoyer.io/user/profile#/integrations) page.
 
 When adding a server to your project click the **Import Forge Server** button. Envoyer will display a modal asking you to select the server from your account and the site from the server.
+
+Once selected, Envoyer will add the required SSH key to the connected site's user (typically `forge`, unless using an isolated site). Envoyer will use this SSH key to connect to your server and deploy your site.
 
 ## Managing Uploaded Files
 
