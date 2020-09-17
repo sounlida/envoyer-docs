@@ -21,7 +21,7 @@ Make sure that you've subscribed to one of Envoyer's paid subscriptions.
 
 ## Project Settings
 
-To make changes to your project setitngs, click the **Settings** button at the top of the project's dashboard.
+To make changes to your project settings, click the **Settings** button at the top of the project's dashboard.
 
 From here, you can change the project settings, source control settings and delete the project.
 
