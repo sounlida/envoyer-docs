@@ -1,7 +1,7 @@
 module.exports = {
     title: "Envoyer",
     description: "Zero Downtime PHP Deployment",
-    base: '/docs/',
+    base: '/',
 
     head: [
         [
