@@ -24,25 +24,16 @@ cd {{ release }}
 php artisan command
 ```
 
-The `project` variable provides access to the project's root (the directory which contains current, releases, and storage):
+The available variables are:
 
-```bash
-cd {{ project }}
-
-php artisan command
-```
-
-The `sha` variable provides access to the commit hash being deployed:
-
-```bash
-{{ sha }}
-```
-
-The `time` variable provides access to the timestamp of the current deployment formatted as `YmdHis`:
-
-```bash
-{{ time }}
-```
+| Name | Description |
+| ---- | ----------- |
+| `author` | Resolves to the author of the commit that is being deployed
+| `branch` | Resolves to the branch that Envoyer is configured to deploy
+| `project` | Resolves to the project's root directory (the directory which contains `current`, `releases` and `storage`)
+| `release` | Resolves to the current release path, within `releases`
+| `sha` | Resolves to the commit hash that is being deployed
+| `time` | Resolves to the current deployment formatted as `YmdHis`
 
 <div v-pre>
 
