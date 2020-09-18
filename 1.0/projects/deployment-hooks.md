@@ -38,7 +38,7 @@ The available variables are:
 <div v-pre>
 
 :::tip Variable Formatting
-Note that variables can be written with or without a space inside of the braces, i.e. `{{ variable }}` is the same as `{{ variable }}`
+Variables can be written with or without a space inside of the braces, i.e. `{{ variable }}` is the same as `{{ variable }}`
 :::
 
 </div>
