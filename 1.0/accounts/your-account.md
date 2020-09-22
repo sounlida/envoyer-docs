@@ -11,7 +11,7 @@ You may update your name, email and password from the [Account dashboard](https:
 You can add Two Factor Authentication (2FA) to your account from the [Account page](https://envoyer.io/user/profile#/account). Once you enable 2FA, please remember to scan the 2FA barcode into your phone's authentication application.
 
 :::tip Using 2FA
-We recommend using the [Google Authenticator](https://support.google.com/accounts/answer/1066447) application on your smartphone to manage your Forge 2FA configuration.
+We recommend using the [Google Authenticator](https://support.google.com/accounts/answer/1066447) application on your smartphone to manage your Envoyer 2FA configuration.
 :::
 
 ## Billing
