@@ -4,7 +4,9 @@
 
 ## Overview
 
-Deployment hooks allow you to customize your entire deployment plan, by writing small Bash scripts to automate parts of your deployment. You may add hooks that run before or after any step in your deployment. You may also specify the servers on which each hook is executed.
+Deployment hooks allow you to customize your entire deployment plan by writing small Bash scripts to automate parts of your deployment. You may also specify the servers on which each hook is executed and the user that runs the hook.
+
+Once you've added your own deployment hooks, you can re-order them however you'd like. Envoyer's fixed actions are fixed and cannot be re-ordered.
 
 Like any other step during your deployment, if a deployment hook exits with a non-zero status code, the entire deployment will be cancelled. This prevents your customers from experiencing downtime with a broken deployment.
 
