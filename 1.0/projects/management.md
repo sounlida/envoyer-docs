@@ -39,7 +39,7 @@ Read more about [Heartbeats](/1.0/projects/heartbeats.html).
 
 ### Source Control
 
-You can manage how the project is deployed here, from which source control provider, the branch that is deployed and you may also choose whether to install Composer dependencies.
+You can manage how the project is deployed here, from which source control provider, the branch that is deployed and you may also choose whether to install Composer dependencies. Envoyer also has an option to install Composer dependencies quietly. This will add the `--quiet` flag and will prevent Composer from writing additional output.
 
 ### Delete Project
 
