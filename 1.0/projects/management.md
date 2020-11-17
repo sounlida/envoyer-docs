@@ -41,6 +41,8 @@ Read more about [Heartbeats](/1.0/projects/heartbeats.html).
 
 You can manage how the project is deployed here, from which source control provider, the branch that is deployed and you may also choose whether to install Composer dependencies. Envoyer also has an option to install Composer dependencies quietly. This will add the `--quiet` flag and will prevent Composer from writing additional output.
 
+You may also enable the **Deploy When Code Is Pushed** setting that will add a webhook to your source control provider. When code is pushed to the selected branch, Envoyer will automatically triggger a new deployment.
+
 ### Delete Project
 
 If you no longer need the project, you may delete it from here. Type in the name and click **Delete Project**.
