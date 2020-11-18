@@ -26,9 +26,17 @@ Laracasts has a comprehensive and **free** [video course](https://laracasts.com/
 
 ## Envoyer IP Addresses
 
-If you are restricting SSH access to your server using IP whitelisting, you should whitelist the following IP addresses:
+If you are restricting SSH access to your server using IP whitelisting, you **must** whitelist the following IP addresses:
 
 - `209.97.156.220`
 - `142.93.64.227`
 
 You may also need to whitelist the [Heartbeat IP addresses](/1.0/projects/heartbeats.html#heartbeat-ip-addresses).
+
+## Envoyer API
+
+Envoyer provides a powerful API that allows you to manage your servers programatically, providing access to the vast majority of Envoyer features. You can find the Envoyer API documentation [here](https://envoyer.io/api-documentation).
+
+## Found Something Wrong?
+
+If you find something in the documentation that is misleading or outright wrong, please consider submitting a pull request on [GitHub](https://github.com/laravel/envoyer-docs).
