@@ -33,11 +33,11 @@ When your site has finished deploying, Envoyer can ping it to check that it is s
 - London
 - Singapore
 
-If you have configured notifications on your project, Envoyer will notify these channels.
+If you have configured notifications on your project, Envoyer will notify these channels of the result of the health check.
 
-:::warning Health Checker URLs
+:::warning Health Checker Status Codes
 
-The configured URL must return a `2xx` status code, anything else will be marked as a failure.
+The configured URL must return a `2xx` status code. All other status codes will be considered a failure.
 :::
 
 ### Source Control
