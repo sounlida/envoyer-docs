@@ -23,19 +23,22 @@ Make sure that you've subscribed to one of Envoyer's paid subscriptions.
 
 To make changes to your project settings, click the **Settings** button at the top of the project's dashboard.
 
-From here, you can change the project settings, source control settings and delete the project.
+From here, you can change the project settings, source control settings and delete the project. You can edit the name, type, health check URL and how many deployments to retain.
 
-### The Basics
+### Health Checks
 
-You can edit the name, type, health check URL and how many deployments to retain.
-
-When your site has finished deploying, Envoyer can ping it to check that it is available. Health checks are performed from three locations:
+When your site has finished deploying, Envoyer can ping it to check that it is still available. Health checks are performed from three locations:
 
 - New York
 - London
 - Singapore
 
-Read more about [Heartbeats](/1.0/projects/heartbeats.html).
+If you have configured notifications on your project, Envoyer will notify these channels.
+
+:::warning Health Checker URLs
+
+The configured URL must return a `2xx` status code, anything else will be marked as a failure.
+:::
 
 ### Source Control
 
