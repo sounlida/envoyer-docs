@@ -56,6 +56,8 @@ The available variables are:
 | `release` | Resolves to the current release path, within `releases`
 | `sha` | Resolves to the commit hash that is being deployed
 | `time` | Resolves to the current deployment formatted as `YmdHis`
+| `php` | Resolves to the server's configured PHP path
+| `composer` | Resolves to the server's configured Composer path
 
 <div v-pre>
 
