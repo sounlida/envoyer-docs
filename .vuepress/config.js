@@ -1,6 +1,6 @@
 module.exports = {
     title: "Envoyer",
-    description: "Zero Downtime PHP Deployment",
+    description: "Zero Downtime PHP Deployments",
     base: '/',
 
     head: [
@@ -16,7 +16,7 @@ module.exports = {
     ],
 
     themeConfig: {
-        // logo: '/assets/img/logo.svg',
+        logo: '/assets/img/logo.svg',
         displayAllHeaders: true,
         activeHeaderLinks: false,
         searchPlaceholder: 'Press / to search',
