@@ -15,32 +15,31 @@ Envoyer supports four source control providers:
 - Self-Hosted GitLab
 - Bitbucket
 
-Below we've covered some of the common questions for each provider.
+Below we will discuss some issues that may arise when using each provider and how you can address them.
 
 ### GitHub
 
-If your organization has third-party restrictions enabled, the organization's owner will need to approve the integration. This can be done [here](https://github.com/settings/connections/applications/94f9ec2a8d84cbc725e2).
+If your organization has third-party restrictions enabled, the organization's owner will need to approve the integration. This can be done using the following link: [https://github.com/settings/connections/applications/94f9ec2a8d84cbc725e2](https://github.com/settings/connections/applications/94f9ec2a8d84cbc725e2)
 
 ### GitLab
 
-GitLab has [strict rate limits](https://docs.gitlab.com/ee/security/rate_limits.html) that can prevent a project from deploying to multiple servers at one time. If you need to deploy to more than one server at a time, you should consider switching to another provider.
+GitLab has [strict rate limits](https://docs.gitlab.com/ee/security/rate_limits.html) that can prevent a project from deploying to multiple servers at one time. If you need to deploy to more than one server at a time, you should consider switching to another source control provider.
 
 ### Self-Hosted GitLab
 
-If you receive the "Invalid repository. Are you sure you have access to it?" error message, you should try using the Repository ID instead of the name.
+If you receive the "Invalid repository. Are you sure you have access to it?" error message when attempting to connect a repository to your project, you should try using the Repository ID instead of the name.
 
 ## Provider Management
 
 ### Connecting Providers
 
-You can connect to any of the support source control providers at any time through the [Integrations page](https://envoyer.io/user/profile#/integrations) in the account dashboard.
+You can connect to any of the support source control providers at any time through the [Integrations panel](https://envoyer.io/user/profile#/integrations) within your account dashboard.
 
 ### Unlinking Providers
 
-You may unlink providers at any time by clicking the **Unlink** button next to the **Refresh Token** button. 
+You may unlink providers at any time by clicking the **Unlink** button next to the **Refresh Token** button.
 
-:::tip Deployments
-If you unlink a source control provider, you will be unable to make new deployments for projects that are connected to it.
+:::warning Unlinking Providers & Deployments
 
-Existing deployments will be unaffected.
+If you unlink a source control provider, you will be unable to make new deployments for projects that are connected to that provider. Existing deployments will be unaffected.
 :::

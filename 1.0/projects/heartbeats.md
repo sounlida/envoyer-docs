@@ -14,7 +14,7 @@ If Envoyer does not receive a check-in from your job within the specified monito
 
 ### Calling Manually
 
-If you are manually modifying your server's `/etc/crontab` file to add Cron jobs, you can simply append a curl request to your Cron command. For example:
+If you are manually modifying your server's `/etc/crontab` file to define scheduled tasks, you can simply append a curl request to your Cron command. For example:
 
 ```
 * * * * * user php command && curl http://beats.envoyer.io/heartbeat-id
@@ -22,7 +22,7 @@ If you are manually modifying your server's `/etc/crontab` file to add Cron jobs
 
 ### Calling With Laravel
 
-If you're using Laravel's cron scheduler, you may use the `thenPing` method on your scheduled job.
+If you're using Laravel's task scheduler, you may use the `thenPing` method on your scheduled job.
 
 ```php
 $schedule->command('foo')->thenPing('http://beats.envoyer.io/heartbeat-id');
@@ -30,7 +30,7 @@ $schedule->command('foo')->thenPing('http://beats.envoyer.io/heartbeat-id');
 
 ## Heartbeat IP Addresses
 
-If you need to white-list the Heartbeat IP addresses to allow Envoyer to access your server, you should white-list the following addresses:
+If you need to allow access to your heartbeat URLs by IP address, you should allow the following IP addresses so that Envoyer can ping your URL:
 
 - New York: `198.199.84.22`
 - London: `167.71.140.19`
