@@ -18,13 +18,13 @@ We recommend using the [Google Authenticator](https://support.google.com/account
 
 You can sign up to any one of Envoyer's three subscription plans:
 
-- **Basic** - 10 Projects, 10 Minute Deployment Time
-- **Plus** - 20 Projects, 10 Minute Deployment Time
-- **Premium** - Unlimited Projects, 15 Minute Deployment Time
+- **Basic** - 10 Projects, 10 Minute Deploy Time
+- **Plus** - 20 Projects, 10 Minute Deploy Time
+- **Premium** - Unlimited Projects, 15 Minute Deploy Time
 
 You may join Envoyer for free as a collaborator on other projects. If you need to manage your own projects in the future, you can upgrade your account at any time.
 
-:::tip Maximum Deployment Time
+:::tip Maximum Deploy Time
 
 The build time for each plan determines the maximum that your deployment plan can take before timing out.
 :::
