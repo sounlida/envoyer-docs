@@ -33,7 +33,7 @@ If you receive the "Invalid repository. Are you sure you have access to it?" err
 
 ### Connecting Providers
 
-You can connect to any of the support source control providers at any time through the [Integrations panel](https://envoyer.io/user/profile#/integrations) within your account dashboard.
+You can connect to any of the supported source control providers at any time through the [Integrations panel](https://envoyer.io/user/profile#/integrations) within your account dashboard.
 
 ### Unlinking Providers
 
