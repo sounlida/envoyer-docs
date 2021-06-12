@@ -28,8 +28,6 @@ Laracasts has a comprehensive and **free** [video course](https://laracasts.com/
 
 If you are restricting SSH access to your server using IP whitelisting, you **must** whitelist the following IP addresses:
 
-- `209.97.156.220`
-- `142.93.64.227`
 - `159.65.47.205`
 - `157.245.120.132`
 
