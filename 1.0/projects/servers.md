@@ -16,25 +16,25 @@ If Envoyer was unable to restart PHP FPM, you will receive an alert on your proj
 
 There are several options you may configure when managing a server:
 
-- **Name:** Give your server a name so that you can identify it easily.
-- **Hostname / IP Address:** How should Envoyer connect to your server? Note that only IPv4 is supported.
-- **Port:** The port should Envoyer connect to your server.
-- **Connect As:** The user that Envoyer should connect to your server.
-- **Receives Code Deployments:** Determines whether the server should receive code.
-- **Project Path:** Where the project is located.
-- **Reload FPM After Deployments:** Determines whether the PHP-FPM service will be reloaded after the project's deployments.
-- **FreeBSD:** Whether the server is running FreeBSD.
-- **PHP Version:** The version of PHP being used (also sets the PHP-FPM service that will be reloaded).
-- **PHP Path:** The path that PHP is located at.
-- **Composer Path:** The path that Composer is located at.
+- **Name:** Give your server a name that you can identify easily.
+- **Hostname / IP Address:** The IPv4 address of your server.
+- **Port:** The port Envoyer should use to connect to your server.
+- **Connect As:** The user that Envoyer should use to connect to your server.
+- **Receives Code Deployments:** Determines whether the server should receive code deployments.
+- **Project Path:** The absolute path to the project's root directory on your server.
+- **Reload FPM After Deployments:** Determines whether the PHP-FPM service will be reloaded after each deployment.
+- **FreeBSD:** Indicates whether the server is running the FreeBSD operating system.
+- **PHP Version:** The version of PHP being used (also determines the version of the PHP-FPM service that will be reloaded).
+- **PHP Path:** The absolute path to the PHP binary on your system.
+- **Composer Path:** The absolute path to the Composer binary on your system.
 
 ### Configuring Multiple PHP Versions
 
-If your server is configured to run multiple versions of PHP, then you may find that the **Install Composer Dependencies** step uses the wrong version. To resolve this, you'll need to set a custom Composer Path setting, such as `php8.0 /usr/local/bin/composer`. This setting will instruct Composer to run using PHP 8.0 instead of the system default.
+If your server is configured to run multiple versions of PHP, you may find that the **Install Composer Dependencies** step uses the wrong version. To resolve this, you should define a custom Composer path configuration setting, such as `php8.0 /usr/local/bin/composer`. This setting will instruct Composer to run using PHP 8.0 instead of the system default.
 
-### Non-standard PHP Services
+### Non-Standard PHP Services
 
-Some VPS providers will run custom versions of Ubuntu that manages PHP services differently. If Envoyer is not able to correctly identify and reload the correct PHP service, you will need to disable **Reload FPM After Deployments** setting and create a custom [Deployment Hook](/1.0/projects/deployment-hooks.html) that reloads the correct service.
+Some VPS providers run custom versions of Ubuntu that manage PHP services in a variety of ways that are not typical. If Envoyer is not able to correctly identify and reload the correct PHP service, you will need to disable the **Reload FPM After Deployments** setting and create a custom [Deployment Hook](/1.0/projects/deployment-hooks.html) that reloads the correct service.
 
 ## Importing Laravel Forge Servers
 
