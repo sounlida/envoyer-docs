@@ -46,6 +46,12 @@ You can manage how the project is deployed via the project's source control sett
 
 You may also enable the project's **Deploy When Code Is Pushed** setting. Enabling this setting will add a webhook to your source control provider. When code is pushed to the selected branch, Envoyer will automatically trigger a new deployment.
 
+### Transfer Project
+
+Projects may be transferred to other Envoyer accounts from the projects's Settings panel. To transfer the project, you must provide the email address of the Envoyer account you wish to transfer the project to. The Envoyer account that is receiving the project will receive an email asking them to confirm the transfer request.
+
+You may only transfer projects to Envoyer accounts with an active subscription.
+
 ### Delete Project
 
 If you no longer need the project, you may delete it via the project settings dashboard. After confirming the name of the project, click the **Delete Project** button.
