@@ -48,9 +48,7 @@ You may also enable the project's **Deploy When Code Is Pushed** setting. Enabli
 
 ### Transfer Project
 
-Projects may be transferred to other Envoyer accounts from the projects's Settings panel by providing the email address of the Envoyer account you wish to transfer the project to.
-
-The Envoyer account that is receiving the project will be receive an email address asking them to confirm the request.
+Projects may be transferred to other Envoyer accounts from the projects's Settings panel. To transfer the project, you must provide the email address of the Envoyer account you wish to transfer the project to. The Envoyer account that is receiving the project will receive an email asking them to confirm the transfer request.
 
 You may only transfer projects to Envoyer accounts with an active subscription.
 
