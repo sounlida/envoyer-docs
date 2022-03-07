@@ -48,16 +48,16 @@ php artisan command
 
 Other available variables are:
 
-| Name | Description |
-| ---- | ----------- |
-| `author` | The author of the commit that is being deployed
-| `branch` | The branch that Envoyer is configured to deploy
-| `project` | The project's root directory (the directory which contains `current`, `releases` and `storage`)
-| `release` | The current release path, within `releases`
-| `sha` | The commit hash that is being deployed
-| `time` | The current deployment formatted as `YmdHis`
-| `php` | The server's configured PHP path
-| `composer` | The server's configured Composer path
+| Name       | Description                                                                                     |
+|------------|-------------------------------------------------------------------------------------------------|
+| `author`   | The author of the commit that is being deployed                                                 |
+| `branch`   | The branch that Envoyer is configured to deploy                                                 |
+| `project`  | The project's root directory (the directory which contains `current`, `releases` and `storage`) |
+| `release`  | The current release path, within `releases`                                                     |
+| `sha`      | The commit hash that is being deployed                                                          |
+| `time`     | The current deployment formatted as `YmdHis`                                                    |
+| `php`      | The server's configured PHP path                                                                |
+| `composer` | The server's configured Composer path                                                           |
 
 <div v-pre>
 
