@@ -58,6 +58,7 @@ Other available variables are:
 | `time`     | The current deployment formatted as `YmdHis`                                                    |
 | `php`      | The server's configured PHP path                                                                |
 | `composer` | The server's configured Composer path                                                           |
+| `name`     | The project's name                                                                              |
 
 <div v-pre>
 
