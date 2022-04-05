@@ -52,6 +52,7 @@ Other available variables are:
 |------------|-------------------------------------------------------------------------------------------------|
 | `author`   | The author of the commit that is being deployed                                                 |
 | `branch`   | The branch that Envoyer is configured to deploy                                                 |
+| `message`  | The message of the commit that is being deployed                                                |
 | `project`  | The project's root directory (the directory which contains `current`, `releases` and `storage`) |
 | `release`  | The current release path, within `releases`                                                     |
 | `sha`      | The commit hash that is being deployed                                                          |
