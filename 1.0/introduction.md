@@ -30,6 +30,7 @@ If you are restricting SSH access to your server using IP whitelisting, you **mu
 
 - `159.65.47.205`
 - `157.245.120.132`
+- `134.122.14.47`
 
 You may also need to whitelist the [Heartbeat IP addresses](/1.0/projects/heartbeats.html#heartbeat-ip-addresses).
 
