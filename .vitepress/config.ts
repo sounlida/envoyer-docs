@@ -61,7 +61,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     themeConfig: {
         logo: {
             light: '/logo.svg',
-            dark: '/logo.svg',
+            dark: '/logo-dark.svg',
         },
         nav: [
             { text: 'Envoyer', link: 'https://envoyer.io' },
