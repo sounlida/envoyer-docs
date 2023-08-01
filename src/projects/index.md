@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0;url=/projects/management" />
+<meta http-equiv="refresh" content="0;url=/projects/management.html" />
