@@ -7,7 +7,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     title: 'Envoyer',
     description: 'Zero Downtime PHP Deployments',
     base: '/',
-    cleanUrls: true,
+    cleanUrls: false,
     srcDir: 'src',
 
     head: [
