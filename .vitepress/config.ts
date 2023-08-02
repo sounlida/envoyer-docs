@@ -41,10 +41,6 @@ export default defineConfigWithTheme<ThemeConfig>({
             content: 'envoyer.io/mstile-144x144.png',
         }],
         ['meta', {
-            name: 'theme-color',
-            content: '#18b69b',
-        }],
-        ['meta', {
             property: 'og:image',
             content: 'https://envoyer.io/social-share.png',
         }],
