@@ -14,44 +14,48 @@ export default defineConfigWithTheme<ThemeConfig>({
         ['link', {
             rel: 'apple-touch-icon',
             sizes: '180x180',
-            href: 'https://envoyer.io/apple-touch-icon.png',
+            href: 'https://envoyer.io/img/favicons/apple-touch-icon.png',
         }],
         ['link', {
             rel: 'icon',
             sizes: '16x16',
             type: 'image/png',
-            href: 'https://envoyer.io/favicon-16x16.png',
+            href: 'https://envoyer.io/img/favicons/favicon-16x16.png',
         }],
         ['link', {
             rel: 'icon',
             sizes: '32x32',
             type: 'image/png',
-            href: 'https://envoyer.io/favicon-32x32.png',
+            href: 'https://envoyer.io/img/favicons/favicon-32x32.png',
         }],
         ['link', {
             rel: 'mask-icon',
-            href: 'https://envoyer.io/safari-pinned-tab.svg',
+            href: 'https://envoyer.io/img/favicons/safari-pinned-tab.svg',
         }],
         ['meta', {
             name: 'msapplication-TileColor',
-            content: '#18b69b',
+            content: '#FA342C',
         }],
         ['meta', {
             name: 'msapplication-TileImage',
-            content: 'envoyer.io/mstile-144x144.png',
+            content: 'envoyer.io/img/favicons/mstile-144x144.png',
         }],
-        ['meta', {
-            property: 'og:image',
-            content: 'https://envoyer.io/social-share.png',
-        }],
+        // ['meta', {
+        //     property: 'og:image',
+        //     content: 'https://envoyer.io/social-share.png',
+        // }],
         ['meta', {
             property: 'twitter:card',
             content: 'summary_large_image',
         }],
         ['meta', {
-            property: 'twitter:image',
-            content: 'https://envoyer.io/social-share.png',
+            property: 'twitter:creator',
+            content: '@laravelphp',
         }],
+        // ['meta', {
+        //     property: 'twitter:image',
+        //     content: 'https://envoyer.io/social-share.png',
+        // }],
     ],
 
     themeConfig: {
