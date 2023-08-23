@@ -32,8 +32,7 @@ Laracasts has a comprehensive and [free video course](https://laracasts.com/seri
 
 ## Account Creation
 
-To get started with Envoyer, you must [first create an account](https://envoyer.io/auth/register). If you are just collaborating with others on their projects, you are not required to have an Envoyer subscription.
-To create and manage your own projects, you will need an Envoyer subscription.
+To get started with Envoyer, you must [create an account](https://envoyer.io/auth/register). If you are just collaborating with others on their projects, you are not required to have an Envoyer subscription.
 
 ## Envoyer IP Addresses
 
