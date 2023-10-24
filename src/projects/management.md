@@ -42,7 +42,7 @@ The configured URL must return a `2xx` status code. All other status codes will 
 
 #### Heartbeat IP Addresses
 
-If your application firewall requires you to allow access from the heartbeat monitors by IP address, you should allow the following IP addresses so that Envoyer can ping your URL:
+If your application firewall requires you to allow access from the health check monitors by IP address, you should allow the following IP addresses so that Envoyer can ping your URL:
 
 - New York: `198.199.84.22`
 - London: `167.71.140.19`
