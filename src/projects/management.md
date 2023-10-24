@@ -40,7 +40,7 @@ If you have configured notifications on your project, Envoyer will notify these 
 The configured URL must return a `2xx` status code. All other status codes will be considered a failure.
 :::
 
-#### Heartbeat IP Addresses
+#### Health Check IP Addresses
 
 If your application firewall requires you to allow access from the health check monitors by IP address, you should allow the following IP addresses so that Envoyer can ping your URL:
 
