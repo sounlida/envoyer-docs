@@ -27,11 +27,3 @@ If you're using Laravel's task scheduler, you may use the `thenPing` method on y
 ```php
 $schedule->command('foo')->thenPing('http://beats.envoyer.io/heartbeat-id');
 ```
-
-## Heartbeat IP Addresses
-
-If you need to allow access to your heartbeat URLs by IP address, you should allow the following IP addresses so that Envoyer can ping your URL:
-
-- New York: `198.199.84.22`
-- London: `167.71.140.19`
-- Singapore: `167.71.208.72`

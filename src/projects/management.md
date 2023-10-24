@@ -40,6 +40,14 @@ If you have configured notifications on your project, Envoyer will notify these 
 The configured URL must return a `2xx` status code. All other status codes will be considered a failure.
 :::
 
+#### Heartbeat IP Addresses
+
+If you need to allow access from the heartbeat monitors by IP address, you should allow the following IP addresses so that Envoyer can ping your URL:
+
+- New York: `198.199.84.22`
+- London: `167.71.140.19`
+- Singapore: `167.71.208.72`
+
 ### Source Control
 
 You can manage how the project is deployed via the project's source control settings. Specifically, you may configure from which source control provider the project is deployed, the branch that is deployed, and you may also choose whether to install the project's Composer dependencies.
